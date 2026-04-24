@@ -1,5 +1,5 @@
 export const sendData = async (data) => {
-    const res = await fetch("https://bfhl-restapi.onrender.com", {
+    const res = await fetch("https://bfhl-restapi.onrender.com/bfhl", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
